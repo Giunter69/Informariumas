@@ -28,24 +28,26 @@ header {
 
         ul{
             list-style: none;
-            margin-top: 0;
-    display: flex;
+                display: flex;
         justify-content: center;
         align-items: center;
         padding: 10px 0 10px 0;
-gap: 20px;
+    gap: 20px;
 
             li {
                 display: inline-block;
+                
                     
                 a {
                     text-decoration: none;
                     color: rgb(22, 3, 3);
-                    padding: 0px 20px 0px 20px;
+                    padding: 10px 20px 0px 20px;
                     border: solid thin;
-                    padding: 6px;
+                    padding: 0px;
                     background-color: white;
-    
+                    border-radius: 4px;
+    margin-top: 20px;
+
                     &:hover {
                         color: $secondary-color;
                     }

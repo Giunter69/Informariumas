@@ -41,6 +41,7 @@ header {
   border: solid thin;
   padding: 5px;
   background-color: white;
+  border-radius: 4px;
 }
 .nav ul li a:hover {
   color: rgb(181, 28, 17);
